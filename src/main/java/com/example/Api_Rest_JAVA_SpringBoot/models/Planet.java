@@ -17,7 +17,7 @@ public class Planet {
 
     @Column(nullable = false, unique = true)
     private String nombre;
-    private String Rocoso;
+    private String tipo;
     private double masa;
     private int radio;
     private double gravedad;
